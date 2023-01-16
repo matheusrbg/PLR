@@ -1,8 +1,8 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
-from PasswordGAN.FAIL import rawModel
-from PasswordGAN.FAIL.rawModel import TRAIN
+from FAIL import rawModel
+from FAIL.rawModel import TRAIN
 from tqdm import tqdm
 import math
 
