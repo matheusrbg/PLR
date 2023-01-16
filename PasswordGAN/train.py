@@ -1,13 +1,13 @@
-from PasswordGAN.FAIL import rawModel
+from FAIL import rawModel
 
-from PasswordGAN import architectures
+import architectures
 import tensorflow_hub as hub
 import pickle
 import numpy as np
 import gin
 import os, sys
 
-from PasswordGAN.vanilla import Vanilla
+from vanilla import Vanilla
 
 HOME = './HOME/'
 rawModel.CHECK_ROOT_DIR = os.path.join(HOME, 'CHECKPOINTS/')
